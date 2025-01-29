@@ -52,6 +52,8 @@ footer p{
     color: black;
     font-size: 20px;
     font-family:Post No Bills Colombo ExtraBold;
+    margin:0px;
+    padding-left:10px;
 }
 footer{
     background-color:#D9D9D9;
