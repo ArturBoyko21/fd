@@ -1,3 +1,7 @@
+body {
+    font-family: sans-serif;
+}
+
 .gold{
     font-family: Seymour One;
     color: azure;
@@ -42,7 +46,7 @@ main p{
 .sd{
    text-align:center;
    color:white;
-   font-size:20px 
+   font-size:20px;
 }
 footer p{
     color: black;
@@ -88,7 +92,31 @@ form{
     background-color: #D9D9D9;
     padding: 30px;
     width: 400px;
+    text-align: center;
+    margin: 20px 0px;
 }
 h1{
     margin: 0px;
+    padding: 20px;
+}
+.ds{
+    display: flex;
+    justify-content: center;
+}
+form h1{
+ text-align: center;
+ margin-bottom: 20px;
+}
+form input{
+    width:70%;
+    height:30px;
+    margin-bottom: 20px;
+    outline: none;
+    padding-left: 10px;
+}
+form button{
+    color:#3192ca7e;
+}
+form input::placeholder{
+    color:#3192ca7e;
 }
